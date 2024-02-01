@@ -1,0 +1,147 @@
+---
+title: 数据库系统学习笔记
+date: 2022-10-12
+tags:
+    - 数据库
+permalink: /database-system-notes/
+---
+
+CMU 课程 + 《数据库系统概念》
+
+-   Database system
+
+    -   storage manager
+    -   query processor component
+    -   transaction management component
+
+-   Indexing
+
+    -   Ordered Indices
+    -   B+ Tree Indices
+        -   Queries
+        -   Updates
+            -   Insertion
+            -   Deletion
+    -   Hash Indices
+        -   Linear Probe Hashing
+        -   Robin Hood Hashing
+        -   Cuckoo Hashing
+        -   Chained Hashing
+        -   Extendible Hashing
+            -   Extendible Hash Table
+        -   Linear Hashing
+    -   Bitmap Indices
+
+-   Query Processing
+
+    -   Selection
+    -   Sorting
+        -   External Sort-Merge Algorithm
+    -   Aggregations
+    -   Join
+        -   Nested-Loop Join
+        -   Block Nested-Loop Join
+        -   Indexed Nested-Loop Join
+        -   Merge Join
+        -   Hash Join
+    -   Modifications
+        -   Inserts
+        -   Updates
+        -   Deletes
+
+-   Query Optimization
+
+-   Concurrency Control
+
+    -   Lock-Based Protocols
+
+        -   2PL/S2PL/R2PL
+            -   grow phase
+            -   shrink phase
+        -   Multiple-granularity Locking Protocol
+            -   IS/IX/S/SIX/X locks
+
+    -   Deadlock Handling
+        -   prevention
+        -   detection
+        -   recovery
+    -   Timestamp-Based Protocols
+        -   Ordering the transaction requests
+    -   Validation-Based Protocols
+    -   Multiversion Schemes
+        -   Combining with other protocols
+    -   Snapshot isolation
+
+-   Transaction Concurrency Problems
+
+    -   Dirty Read
+        -   Read a uncorrect data.
+    -   Unrepeated Read
+        -   A transaction get two different value between two read operations.
+    -   Phantom Read
+        -   A transaction insert between B transaction's two times of read operation, then B transaction get two different amount of ouputs.
+
+-   Transaction isolation levels (high->low)
+
+    -   Serializable
+    -   Repeatable Read
+    -   Read Committed
+    -   Read Uncommitted
+
+-   Isolation implementation
+
+    -   Locking
+        -   likes 2PL.
+    -   Timestamps
+        -   Ensure data items access order by timestamp (or serial number). Each data item holds two timestamps, read timestamp and write timestamp, and each transaction get a timestamp when it start.
+    -   Multi-version and snapshots
+        -   No lock, no waiting, good performance, widely adopted.
+
+-   Advanced topics on Transaction
+
+    -   Concurrenency control ofern become bottlenecks in main-memory database.
+    -   Online Index Creation
+    -   B+ Tree index-concurrency control
+        -   crabbing protocols
+        -   B-link trees
+    -   Concurrency Control in Main-Memory Databases
+        -   lock-free data structure
+
+-   Recovery System
+
+    -   Log Records
+    -   Checkpointing
+    -   ARIES
+        -   log sequence numbers
+            -   pageLSN
+            -   flushedLSN
+            -   ...
+        -   recovery
+            -   Analysis pass
+            -   Redo pass
+            -   Unfo pass
+
+-   Server System Architectures
+
+    -   Transaction-Server Architecture
+        -   Server processes
+        -   Lock manager process
+        -   Database writer process
+        -   Log writer process
+        -   Checkpoint process
+        -   Process monitor process
+        -   Buffer pool
+        -   Lock table
+        -   Log buffer
+        -   Query plan cache
+    -   Data servers
+
+-   Distributed Databases
+    -   Partitioning Schemes
+    -   Distributed Concurrency Control
+        -   Centralized coordinator
+        -   Middleware
+        -   Decentralized coordinator
+    -   Partitioning
+        -   Naive Table Partitioning
+        -   Horizontal Table Partitioning

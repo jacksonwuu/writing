@@ -2,7 +2,7 @@
 title: 我的写作方法论
 date: 2022-03-01
 tags:
-  - 写作
+    - 写作
 permalink: /my-writing-methodology/
 ---
 

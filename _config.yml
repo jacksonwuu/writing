@@ -5,10 +5,11 @@
 # Site
 title: Writings
 subtitle: A place to place some writings
-description: Dare to dream
+description: Dare to dream, dare to do!
 keywords: 
-  - TODO:first-keyword
-  - TODO:second-keyword
+  - 编程
+  - 思考
+  - 读书
 author: Jackson Wu
 language: en
 timezone: Asia/Shanghai
@@ -63,7 +64,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 100
   order_by: -date
 
 # Category & Tag
