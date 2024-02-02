@@ -2,7 +2,7 @@
 title: 2023 世界趋势
 date: 2023-02-01
 tags:
-    - 趋势
+    - 思考
 permalink: /2023-world-trending/
 ---
 
