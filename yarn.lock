@@ -648,6 +648,11 @@
   dependencies:
     "sprintf-js" "^1.1.2"
 
+"hexo-image-link@^0.0.5":
+  "integrity" "sha512-IakmAA0lPATF6iUfHAzYSuZPA6DYLlMj4LTGnT4LeEtmIHjPWsTDgGssPbMJakA47M1vNv5WwiNS3GCtdH2FQw=="
+  "resolved" "https://registry.npmjs.org/hexo-image-link/-/hexo-image-link-0.0.5.tgz"
+  "version" "0.0.5"
+
 "hexo-log@^4.0.1":
   "integrity" "sha512-i2Sgxk8Cgx5viSjq5qW5N/rBFfwoCKQcH8qnnW1fawCapcdEAhIsq+Y3vbrs9bssyDlyU6Vqm4oQmosREaNI7Q=="
   "resolved" "https://registry.npmjs.org/hexo-log/-/hexo-log-4.1.0.tgz"

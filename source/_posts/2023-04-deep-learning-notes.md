@@ -28,9 +28,9 @@ PPMI 矩阵是对共现矩阵的一种改进。但 PPMI 矩阵还是存在一个
 
 降维的方法有很多，这本书上用到的是奇异值分解(Singular Value Decomposition，SVD)。 这一块是线性代数的知识，可以去看看 3b1b 的线性代数教程，通过可视化的方式更好地理解线性代数。
 
-![](/images/2023-04-deep-learning-notes/%E4%B8%8A%E4%BD%8D%E4%B8%8B%E4%BD%8D%E5%85%B3%E7%B3%BB%E5%9B%BE.png)
+![](2023-04-deep-learning-notes/%E4%B8%8A%E4%BD%8D%E4%B8%8B%E4%BD%8D%E5%85%B3%E7%B3%BB%E5%9B%BE.png)
 
-![](/images/2023-04-deep-learning-notes/%E9%99%8D%E7%BB%B4%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
+![](2023-04-deep-learning-notes/%E9%99%8D%E7%BB%B4%E7%A4%BA%E6%84%8F%E5%9B%BE.png)
 
 ## 第三四章
 
@@ -40,9 +40,9 @@ PPMI 矩阵是对共现矩阵的一种改进。但 PPMI 矩阵还是存在一个
 
 这一章主要讲了 word2vec 与其 CBOW 模型。
 
-![](/images/2023-04-deep-learning-notes/CBOW%E6%A8%A1%E5%9E%8B.png)
+![](2023-04-deep-learning-notes/CBOW%E6%A8%A1%E5%9E%8B.png)
 
-![](/images/2023-04-deep-learning-notes/%E5%BE%AE%E7%8E%87%E5%88%86%E5%B8%83.png)
+![](2023-04-deep-learning-notes/%E5%BE%AE%E7%8E%87%E5%88%86%E5%B8%83.png)
 
 ## 第四章
 
@@ -58,11 +58,11 @@ PPMI 矩阵是对共现矩阵的一种改进。但 PPMI 矩阵还是存在一个
 
 这一章剩下的部分基本上都在讲高数（微分、导数、偏导、梯度），下一次打卡再总结。
 
-![](/images/2023-04-deep-learning-notes/Input-Data.webp)
+![](2023-04-deep-learning-notes/Input-Data.webp)
 
-![](/images/2023-04-deep-learning-notes/NIPTHOG9.png)
+![](2023-04-deep-learning-notes/NIPTHOG9.png)
 
-![](/images/2023-04-deep-learning-notes/Upperloop.png)
+![](2023-04-deep-learning-notes/Upperloop.png)
 
 ## 第五章
 
@@ -85,11 +85,11 @@ PPMI 矩阵是对共现矩阵的一种改进。但 PPMI 矩阵还是存在一个
 
 理解了反向传播算法后，整个实现也是非常容易理解的。
 
-![](/images/2023-04-deep-learning-notes/Backprspaoation.png)
+![](2023-04-deep-learning-notes/Backprspaoation.png)
 
-![](/images/2023-04-deep-learning-notes/%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD.png)
+![](2023-04-deep-learning-notes/%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD.png)
 
-![](/images/2023-04-deep-learning-notes/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%85%A8%E8%B2%8C%E5%9B%BE.png)
+![](2023-04-deep-learning-notes/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%85%A8%E8%B2%8C%E5%9B%BE.png)
 
 ## 第六章
 
@@ -119,11 +119,11 @@ SGD 的缺点是如果函数的形状非均向(anisotropic)，比如呈延伸状
 
 这一章后面的内容等到下次打卡。
 
-![](/images/2023-04-deep-learning-notes/%E6%96%B9%E6%B3%95%E6%AF%94%E8%BE%83.png)
+![](2023-04-deep-learning-notes/%E6%96%B9%E6%B3%95%E6%AF%94%E8%BE%83.png)
 
-![](/images/2023-04-deep-learning-notes/MNIST.png)
+![](2023-04-deep-learning-notes/MNIST.png)
 
-![](/images/2023-04-deep-learning-notes/Algorithms.png)
+![](2023-04-deep-learning-notes/Algorithms.png)
 
 ## 继续打卡第六章
 
@@ -145,9 +145,9 @@ Dropout 是一种在学习的过程中随机删除神经元的方法。训练时
 
 这一章有很多内容还不够理解，值得后续再研究一番。
 
-![](/images/2023-04-deep-learning-notes/Without.webp)
+![](2023-04-deep-learning-notes/Without.webp)
 
-![](/images/2023-04-deep-learning-notes/%E8%B6%85%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96.png)
+![](2023-04-deep-learning-notes/%E8%B6%85%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96.png)
 
 ## 打卡第七章——卷积神经网络（CNN）！！！
 
@@ -167,14 +167,14 @@ CNN 中有时将卷积层的输入输出数据称为特征图(feature map)。
 
 具有代表性的 CNN 有 LeNet 和 AlexNet。LeNet 和 AlexNet 没有太大的不同。但围绕它们的环境和计算机技术有了很大的进步。具体地说，现在任何人都可以获得大量的数据。而且，擅长大规模并行计算的 GPU 得到普及，高速进行大量的运算已经成为可能。大数据和 GPU 已成为深度学习发展的巨大的原动力！
 
-![](/images/2023-04-deep-learning-notes/CNN.png)
+![](2023-04-deep-learning-notes/CNN.png)
 
-![](/images/2023-04-deep-learning-notes/RGB.png)
+![](2023-04-deep-learning-notes/RGB.png)
 
-![](/images/2023-04-deep-learning-notes/%E5%8D%B7%E7%A7%AF%E8%BF%90%E7%AE%97.png)
+![](2023-04-deep-learning-notes/%E5%8D%B7%E7%A7%AF%E8%BF%90%E7%AE%97.png)
 
-![](/images/2023-04-deep-learning-notes/url.jpg)
+![](2023-04-deep-learning-notes/url.jpg)
 
-![](/images/2023-04-deep-learning-notes/7-26.png)
+![](2023-04-deep-learning-notes/7-26.png)
 
-![](/images/2023-04-deep-learning-notes/Feature-map.webp)
+![](2023-04-deep-learning-notes/Feature-map.webp)
