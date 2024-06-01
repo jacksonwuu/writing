@@ -1,5 +1,5 @@
 ---
-title: 我的书单（WIP）
+title: 我的书单（持续更新）
 date: 2019-08-25
 tags:
     - 读书
@@ -24,6 +24,10 @@ permalink: /my-booklist/
 -   如何阅读一本书
 -   论幸福 —— 罗素
 -   洞穴奇案
+
+## 数学
+
+-   Linear algebra done right
 
 ## 历史
 
