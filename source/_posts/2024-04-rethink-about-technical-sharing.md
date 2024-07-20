@@ -1,6 +1,6 @@
 ---
 title: 重新思考技术分享
-data: 2024-04-20
+date: 2024-04-20
 permalink: /rethink-about-technical-sharing/
 ---
 
