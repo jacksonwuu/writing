@@ -759,7 +759,7 @@ Go 中反射机制的本质是，Go 会把函数和类型的元数据（尤其�
 
 -   [go internals Chapter II: Interfaces](https://github.com/teh-cmc/go-internals/blob/master/chapter2_interfaces/README.md)
 -   [Go Data Structures: Interfaces](https://research.swtch.com/interfaces)
--   [Finding unreachable functions with deadcode](https://go.dev/blog/deadcode)
 -   [A Quick Guide to Go's Assembler](https://go.dev/doc/asm)
 -   [Introduction to the Go compiler](https://go.dev/src/cmd/compile/README)
 -   [Go 语言设计与实现 4.2 接口](https://draveness.me/Go/docs/part2-foundation/ch04-basic/Go-interface)
+<!-- -   [Finding unreachable functions with deadcode](https://go.dev/blog/deadcode) -->
