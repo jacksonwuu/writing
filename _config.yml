@@ -107,12 +107,13 @@ deploy:
   type: ''
 
 feed:
+  enable: true
   type: atom
   path: atom.xml
-  limit: 100
+  limit: 10000
   hub:
   content:
-    content_limit: 500
+    content_limit: 1000000
     content_limit_delim: ' '
   order_by: -date
   encoding: utf8
